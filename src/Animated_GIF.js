@@ -48,7 +48,7 @@ const Animated_GIF = function Animated_GIF(globalOptions) {
         }
 
         if (globalPalette.length > 256) {
-          globalPalette = globalPalette.slice(0, 256)
+          globalPalette.splice(256)
         }
       }
 
